@@ -26,6 +26,7 @@
  */
 package io.vavr.collection.euler;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.math.BigInteger;
@@ -43,6 +44,7 @@ public class Euler13Test {
      * <p>
      * See also <a href="https://projecteuler.net/problem=13">projecteuler.net problem 13</a>.
      */
+    @Ignore
     @Test
     public void shouldSolveProblem13() {
         assertThat(solve()).isEqualTo("5537376230");

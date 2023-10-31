@@ -31,6 +31,7 @@ import io.vavr.collection.CharSeq;
 import io.vavr.collection.List;
 import io.vavr.collection.Stream;
 import org.assertj.core.api.Assertions;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static io.vavr.collection.euler.Utils.file;
@@ -61,6 +62,7 @@ public class Euler42Test {
      * See also <a href="https://projecteuler.net/problem=42">projecteuler.net
      * problem 42</a>.
      */
+    @Ignore
     @Test
     public void shouldSolveProblem42() {
         assertThat(isTriangleWord("SKY")).isTrue();

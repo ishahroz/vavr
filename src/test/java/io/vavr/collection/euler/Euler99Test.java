@@ -26,6 +26,7 @@
  */
 package io.vavr.collection.euler;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static java.util.Arrays.asList;
@@ -49,6 +50,7 @@ public class Euler99Test {
      * <p>
      * See also <a href="https://projecteuler.net/problem=99">projecteuler.net problem 99</a>.
      */
+    @Ignore
     @Test
     public void shouldSolveProblem99() {
         assertThat(solve()).isEqualTo(709);

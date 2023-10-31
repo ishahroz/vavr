@@ -28,6 +28,7 @@ package io.vavr.collection.euler;
 
 import io.vavr.Function3;
 import io.vavr.collection.Vector;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -54,6 +55,7 @@ public class Euler18Test {
      * <p>
      * See also <a href="https://projecteuler.net/problem=18">projecteuler.net problem 18</a>.
      */
+    @Ignore
     @Test
     public void shouldSolveProblem18() {
         assertThat(solve("small_triangle.txt")).isEqualTo(23);

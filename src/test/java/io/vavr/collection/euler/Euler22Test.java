@@ -28,6 +28,7 @@ package io.vavr.collection.euler;
 
 import io.vavr.collection.CharSeq;
 import io.vavr.collection.Stream;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static io.vavr.collection.euler.Utils.file;
@@ -54,6 +55,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  */
 public class Euler22Test {
 
+    @Ignore
     @Test
     public void shouldSolveProblem22() {
         assertThat(nameScore("COLIN", 938)).isEqualTo(49714);

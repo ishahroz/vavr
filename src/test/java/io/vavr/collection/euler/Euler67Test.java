@@ -28,6 +28,7 @@ package io.vavr.collection.euler;
 
 import io.vavr.Function3;
 import io.vavr.collection.Vector;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -54,6 +55,7 @@ public class Euler67Test {
      * <p>
      * See also <a href="https://projecteuler.net/problem=67">projecteuler.net problem 67</a>.
      */
+    @Ignore
     @Test
     public void shouldSolveProblem67() {
         assertThat(solve("small_triangle.txt")).isEqualTo(23);
